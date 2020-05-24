@@ -34,12 +34,12 @@
                         <th>standard</th>
                         <td><?php echo $data['standard']; ?></td>    
                     </tr>  
-                </table>
+                </table><?php 
         }
         else
         {
         
-        <?php echo "<script>alert('no script found.');</script>";            
+        echo "<script>alert('no script found.');</script>";            
         }
     }
 ?>
